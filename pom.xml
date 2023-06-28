@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>mx.com.izomerizacion.C6</groupId>
+  <artifactId>isomerizacionc6</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>nC6</name>
+  <description>Realiza el equilibrio de los isomerios C6</description>
+  <properties>
+	 <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	 <maven.compiler.source>17</maven.compiler.source> <!-- se debe de poner la version de tabajo si me da error -->
+  	  <maven.compiler.target>17</maven.compiler.target>
+		</properties>
+		<dependencies>
+			<!-- https://mvnrepository.com/artifact/org.apache.commons/commons-math3 -->
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-math3</artifactId>
+				<version>3.6.1</version>
+			</dependency>
+		</dependencies>
+</project>
